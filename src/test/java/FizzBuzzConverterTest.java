@@ -27,4 +27,10 @@ public class FizzBuzzConverterTest {
         Assert.assertEquals("Fizz",result);
     }
 
+    @Test
+    public void FizzBuzzshouldReturnBuzzwhenGiven5(){
+        String result = FizzBuzzConverter.lister(5);
+        Assert.assertEquals("Buzz",result);
+    }
+
 }
