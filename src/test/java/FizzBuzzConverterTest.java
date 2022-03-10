@@ -13,4 +13,18 @@ public class FizzBuzzConverterTest {
         String result = FizzBuzzConverter.lister(2);
         Assert.assertEquals("2",result);
     }
+
+
+    @Test
+    public void FizzBuzzshouldReturnFizzwhenGiven3(){
+        String result = FizzBuzzConverter.lister(3);
+        Assert.assertEquals("Fizz",result);
+    }
+
+    @Test
+    public void FizzBuzzshouldReturnFizzwhenGiven6(){
+        String result = FizzBuzzConverter.lister(3);
+        Assert.assertEquals("Fizz",result);
+    }
+
 }
