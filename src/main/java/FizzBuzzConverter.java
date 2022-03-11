@@ -1,6 +1,5 @@
 public class FizzBuzzConverter {
-    public static String lister(int i) {
-
+    public static String convert(int i) {
         return "1";
     }
 }
