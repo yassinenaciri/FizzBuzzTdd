@@ -45,4 +45,10 @@ public class FizzBuzzConverterTest {
         Assert.assertEquals("FizzBuzz",result);
     }
 
+    @Test
+    public void FizzBuzzshouldReturnFizzBuzzwhenGiven30(){
+        String result = FizzBuzzConverter.lister(30);
+        Assert.assertEquals("FizzBuzz",result);
+    }
+
 }
