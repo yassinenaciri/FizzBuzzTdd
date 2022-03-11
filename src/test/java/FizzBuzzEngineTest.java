@@ -14,4 +14,10 @@ public class FizzBuzzEngineTest {
         String result = FizzBuzzEngine.generate(2);
         Assert.assertEquals("12",result);
     }
+
+    @Test
+    public void shouldReturn12FizzwhenGiven3(){
+        String result = FizzBuzzEngine.generate(3);
+        Assert.assertEquals("12Fizz",result);
+    }
 }
